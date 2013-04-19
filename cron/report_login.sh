@@ -41,4 +41,4 @@ curl --request PUT \
      --data-binary @${PUT_JSON_PATH} \
      --header "X-ApiKey: ${COSM_KEY}" \
      --verbose \
-     http://api.cosm.com/v2/feeds/126472
+     http://api.cosm.com/v2/feeds/${FEED_ID}
